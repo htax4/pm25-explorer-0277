@@ -2,3 +2,4 @@
 |---|---|---|---|
 | 2569-11-21 |เขียนโค้ด notebooks/02_first_look.ipynb | Claude | อ่านคำถามทุกข้อแล้วแก้ให้เป็นคำถามของตัวเองตามเกณฑ์ specific / measurable / มีคำตอบได้หลายแบบ / มีคนใช้ รัน Restart Kernel and Run All แล้วตรวจผลทุก cell เทียบกับที่เขียนใน Markdown |
 | 2569-11-24 | ส่วนที่ 1: ไอเดียคำถาม Q1–Q2 เป็นของฉันเอง ให้ AI ช่วยเกลาให้ผ่านเกณฑ์ 4 ข้อ (ระบุช่วงเวลา หน่วย µg/m³ และเกณฑ์ตัวเลข) · ส่วนที่ 2: Q3–Q4 ให้ AI ช่วยร่างจากผลใน notebook | Claude | เทียบตัวเลขใน Q3–Q4 กับผลของ cell ที่อ้างใน notebook หลังรันเอง และตรวจทุกข้อด้วยเกณฑ์ 4 ข้อ |
+| 2569-11-25 | ร่าง src/fetch_air4thai.py, notebooks/03_inspect_response.ipynb, .env.example และหัวข้อแหล่งข้อมูลใน README | Claude | รัน script จริงและกรณี URL ผิด ตรวจ exit code และ fetch.log, เทียบตารางจับคู่ key กับผล cell ใน notebook, อธิบายได้ทุกบรรทัด (r.content, ทำไม 404 ไม่ retry) |
